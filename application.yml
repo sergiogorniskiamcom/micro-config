@@ -35,8 +35,6 @@ hystrix:
 ---
 spring:
   profiles: docker
-  zipkin:
-    baseUrl: http://zipkin-service:9411
 
 logging:
   level: warn
