@@ -7,7 +7,7 @@ info:
 logging:
   level: debug
 
-message: teste
+message: teste2
 
 endpoints:
   restart:
