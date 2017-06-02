@@ -7,13 +7,6 @@ info:
 logging:
   level: debug
 
-message: teste2
-
-cassandra:
-  contactpoints: 192.168.187.66
-  port: 9042
-  keyspace: teste
-
 endpoints:
   restart:
     enabled: true
@@ -21,6 +14,11 @@ endpoints:
     enabled: true
   health:
     sensitive: false
+    
+cassandra:
+  contactpoints: 192.168.187.66
+  port: 9042
+  keyspace: teste
 
 eureka:
   client:
