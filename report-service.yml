@@ -4,11 +4,6 @@ server:
 security:
   basic:
     enabled: false
-    
-cassandra:
-  contactpoints: 192.168.187.111
-  port: 9042
-  keyspace: teste
   
 spark:
   host: 192.168.187.111
