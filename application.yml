@@ -16,9 +16,13 @@ endpoints:
     sensitive: false
     
 cassandra:
-  contactpoints: 192.168.187.147
+  contactpoints: 18.231.28.228,52.67.89.146,54.233.177.125
   port: 9042
   keyspace: teste
+  loadBalacingDc: AWS_VPC_SA_EAST_1
+  auth:
+    user: iccassandra
+    password: cda45c46837643c6622c9b79ec5fc410
 
 eureka:
   client:
