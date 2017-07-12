@@ -4,6 +4,13 @@ server:
 security:
   basic:
     enabled: false
+
+queue:
+  maxSize: 20
+  maxTread: 10
+  persistPath: /home/sergio/teste/receiver
+ocr:
+  maxRetry: 4
     
 ---
 
