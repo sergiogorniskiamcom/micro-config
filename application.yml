@@ -47,7 +47,8 @@ spring:
   profiles: docker
   http:
     multipart:
-      max-file-size=128MB
+      maxFileSize: 128MB
+      maxRequestSize: 128MB
 
 logging:
   level: warn
