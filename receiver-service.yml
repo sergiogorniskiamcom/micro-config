@@ -11,6 +11,10 @@ queue:
   persistPath: /home/sergio/teste/receiver
 ocr:
   maxRetry: 4
+smi:
+  numberOfPhotos: 4
+  photoSizeInKB: 2000
+  imageResamplePath: /home/sergio/teste/receiver/2mb.png
     
 ---
 
