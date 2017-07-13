@@ -4,7 +4,12 @@ server:
 security:
   basic:
     enabled: false
-    
+
+rate: 20
+process:
+  minTime: 100
+  maxTime: 400
+
 ---
 
 spring:
