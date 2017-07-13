@@ -41,13 +41,15 @@ hystrix:
       execution:
         isolation:
           strategy: SEMAPHORE
-
----
+          
 spring:
   http:
     multipart:
       maxFileSize: 128MB
       maxRequestSize: 128MB
+---
+spring:
+  profiles: docker
 
 logging:
   level: warn
