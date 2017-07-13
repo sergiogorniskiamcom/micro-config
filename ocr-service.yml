@@ -10,8 +10,8 @@ process:
   minTime: 100
   maxTime: 200
 queue:
-  maxSize: 20
-  maxThread: 10
+  maxSize: 100
+  maxThread: 8
   persistPath: /home/sergio/teste/receiver
 
 ---
