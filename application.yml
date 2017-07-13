@@ -25,6 +25,12 @@ cassandra:
  #   user: iccassandra
  #   password: cda45c46837643c6622c9b79ec5fc410
 
+metrics:
+  graphite:
+    enabled: false
+    host: 192.168.187.111
+    port: 2003
+
 eureka:
   client:
     serviceUrl:
