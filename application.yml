@@ -45,6 +45,9 @@ hystrix:
 ---
 spring:
   profiles: docker
+  http:
+    multipart:
+      max-file-size=128MB
 
 logging:
   level: warn
