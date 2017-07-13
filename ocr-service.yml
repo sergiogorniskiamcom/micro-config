@@ -5,6 +5,15 @@ security:
   basic:
     enabled: false
     
+rate: 75
+process:
+  minTime: 100
+  maxTime: 200
+queue:
+  maxSize: 20
+  maxThread: 10
+  persistPath: /home/sergio/teste/receiver
+
 ---
 
 spring:
