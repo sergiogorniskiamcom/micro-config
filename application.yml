@@ -44,7 +44,6 @@ hystrix:
 
 ---
 spring:
-  profiles: docker
   http:
     multipart:
       maxFileSize: 128MB
