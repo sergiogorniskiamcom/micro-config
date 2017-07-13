@@ -9,6 +9,7 @@ rate: 20
 process:
   minTime: 100
   maxTime: 400
+  maxThread: 20
 
 ---
 
