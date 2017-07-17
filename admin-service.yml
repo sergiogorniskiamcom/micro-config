@@ -1,16 +1,6 @@
 server:
   port: ${PORT:8000}
 
-spring:
-  cloud:
-    dashboard:
-      http:
-        # Basic Credentials
-        username: admin
-        password: admin
-  
-#spring:
-#  boot:
- #   admin:
-   #   username: admin
-    #  password: admin
+security:
+  basic:
+    enabled: false
