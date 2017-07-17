@@ -31,6 +31,10 @@ metrics:
     host: 192.168.187.111
     port: 2003
 
+management
+  security
+    enabled: false
+
 eureka:
   client:
     serviceUrl:
