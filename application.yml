@@ -7,6 +7,7 @@ info:
 logging:
   level: debug
 
+#Spring boot endpoints
 endpoints:
   restart:
     enabled: true
@@ -14,6 +15,11 @@ endpoints:
     enabled: true
   health:
     sensitive: false
+
+#Spring boot endpoints
+management:
+  security:
+    enabled: false
     
 cassandra:
 #  contactpoints: 18.231.28.228,52.67.89.146,54.233.177.125
@@ -31,9 +37,7 @@ metrics:
     host: 192.168.187.111
     port: 2003
 
-management:
-  security:
-    enabled: false
+
 
 eureka:
   client:
