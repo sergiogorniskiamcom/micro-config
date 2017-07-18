@@ -15,7 +15,7 @@ ocr:
   persistPath: /tmp
 smi:
   numberOfPhotos: 4
-  photoSizeInKB: 2000
+  photoSizeInKB: 400
     
 ---
 
