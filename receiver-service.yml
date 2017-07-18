@@ -8,11 +8,11 @@ security:
 queue:
   maxSize: 20
   maxThread: 10
-  persistPath: /home/sergio/teste/receiver
+  persistPath: /tmp
 ocr:
   maxRetry: 4
-  imageResamplePath: /home/sergio/teste/receiver/2mb.png
-  persistPath: /home/sergio/teste/receiver
+  imageResamplePath: /home/sr_gorniski/2mb.png
+  persistPath: /tmp
 smi:
   numberOfPhotos: 4
   photoSizeInKB: 2000
