@@ -28,7 +28,7 @@ cassandra:
   keyspace: teste
  # loadBalacingDc: AWS_VPC_SA_EAST_1
   auth:
-    user: ccassandra
+    user: cassandra
     password: amcom2017.
 
 metrics:
