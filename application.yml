@@ -23,7 +23,7 @@ management:
     
 cassandra:
 #  contactpoints: 18.231.28.228,52.67.89.146,54.233.177.125
-  contactpoints: 10.0.0.6
+  contactpoints: 10.128.0.2
   port: 9042
   keyspace: teste
  # loadBalacingDc: AWS_VPC_SA_EAST_1
@@ -33,8 +33,8 @@ cassandra:
 
 metrics:
   graphite:
-    enabled: false
-    host: 192.168.187.111
+    enabled: true
+    host: 10.128.0.3
     port: 2003
 
 
@@ -42,7 +42,7 @@ metrics:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://10.0.0.6:8761/eureka/
+      defaultZone: http://10.128.0.4:8761/eureka/
 
 feign:
   hystrix:
