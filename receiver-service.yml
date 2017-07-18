@@ -7,7 +7,7 @@ security:
 
 queue:
   maxSize: 20
-  maxThread: 10
+  maxThread: 20
   persistPath: /tmp
 ocr:
   maxRetry: 4
