@@ -14,7 +14,7 @@ ocr:
   imageResamplePath: /home/sr_gorniski/2mb.png
   persistPath: /tmp
 smi:
-  numberOfPhotos: 4
+  numberOfPhotos: 3
   photoSizeInKB: 400
     
 ---
