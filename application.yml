@@ -40,6 +40,9 @@ metrics:
 
 
 eureka:
+  instance:
+    metadataMap:
+      instanceId: ${spring.application.name}:${random.value}
   client:
     serviceUrl:
       defaultZone: http://10.128.0.4:8761/eureka/
