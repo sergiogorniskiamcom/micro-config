@@ -34,7 +34,7 @@ cassandra:
 
 metrics:
   graphite:
-    enabled: false
+    enabled: true
     host: 10.128.0.3
     port: 2003
 
