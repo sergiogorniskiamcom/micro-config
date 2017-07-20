@@ -23,17 +23,18 @@ management:
     
 cassandra:
 #  contactpoints: 18.231.28.228,52.67.89.146,54.233.177.125
-  contactpoints: 10.128.0.2
+  #contactpoints: 10.128.0.2
+  contactpoints: 192.168.187.81
   port: 9042
   keyspace: teste
  # loadBalacingDc: AWS_VPC_SA_EAST_1
-  auth:
-    user: cassandra
-    password: amcom2017.
+  #auth:
+    #user: cassandra
+    #password: amcom2017.
 
 metrics:
   graphite:
-    enabled: true
+    enabled: false
     host: 10.128.0.3
     port: 2003
 
@@ -44,7 +45,8 @@ eureka:
     instanceId: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
   client:
     serviceUrl:
-      defaultZone: http://10.128.0.4:8761/eureka/
+      #defaultZone: http://10.128.0.4:8761/eureka/
+      defaultZone: http://192.168.187.81:8761/eureka/
 
 feign:
   hystrix:
